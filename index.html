@@ -1,62 +1,143 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<html lang="en">
 
-.bgimg {
-  background-image: url('meshparticles.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+<head>
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+  <title>LCTP</title>
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
 <body>
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>LCTP</p>
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Laboratory for Computational Transport Phenomena (LCTP)</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              People
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="director.html">Director</a>
+              <a class="dropdown-item" href="research_associate.html">Research associate</a>
+              <a class="dropdown-item" href="research_assistant.html">Research assistant</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('./img/flame.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!--
+            <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p>
+            -->
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/mc.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!--
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+            -->
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('./img/covolume2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!--
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+            -->
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="my-4">Welcome to LCTP</h1>
+
+    <!-- Features Section -->
+    <div class="row">
+      <div class="col-lg">
+        <p> The LCTP was initially established at the University of Pittsburgh in 2002. Given the importance of producing clean efficient energy, one of the main goals of LCTP has been to conduct energy related research, specifically concentrated on turbulent combustion with the objective of increasing fossil fuel efficiency and reducing the pollutants associated with exhaust emissions. Advanced design of combustion systems such as automobile engines, gas turbines, aircraft and spacecraft propulsion systems, and industrial burners fully rely on accurate modeling of turbulent reacting flow inside them. These constitute active research areas at LCTP. The emphasis in this area is to develop more accurate and comprehensive models. With the accessibility of Pittsburgh Supercomputing Center, great progress has been made in optimization and parallelization of the computer codes in use. This has enabled LCTP to tackle complex problems which are of great interest in engineering applications. </p>
+      </div>
+    </div>
+    <!-- /.row -->
     <hr>
-    <!--p>35 days left</p-->
   </div>
-  <div class="bottomleft">
-    <!--p>Some text</p-->
-  </div>
-</div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Laboratory for Computational Transport Phenomena, 2019</p>
+    </div>
+
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        | <a href="http://cfd-pitt.com/">Home</a> | <a href="http://www.pitt.edu">Pitt Home</a> | 
+      </p>
+    </div>
+  
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
