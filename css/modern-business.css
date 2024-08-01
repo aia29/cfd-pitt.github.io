@@ -30,7 +30,6 @@ img.content.x700 {
 }
 
 .card-img-top {
-  width: 400px;
-  height: 400px;
-  overflow: hidden;
+  height: 100%;
+  clip-path: inset(20px 50px 10px 0 round 50px);
 }
