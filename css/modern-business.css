@@ -28,3 +28,9 @@ img.content.x700 {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.card-img-top {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
